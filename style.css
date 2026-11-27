@@ -1630,3 +1630,23 @@
     font-size: 13px;
     letter-spacing: 0.3px;
 }
+
+@media (max-width: 600px) {
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 16px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .nav-links li {
+        list-style: none;
+    }
+
+    .nav-links li a {
+        font-size: 12px;
+    }
+}
